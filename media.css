@@ -1,0 +1,30 @@
+/* smartphones */
+@media (max-width:480px){
+    body{
+        background-color: lightblue;
+    }
+}
+/* tablets */
+@media (min-width:481px) and (max-width:768px){
+    body{
+        background-color: lightgreen;
+    }
+}
+/* laptops */
+@media (min-width:769px) and (max-width:1024px){
+    body{
+        background-color: lightcoral;
+    }
+}
+/* desktop */
+@media (min-width:1025px) and (max-width:1920px){
+    body{
+        background-color: lightgoldenrodyellow;
+    }
+}
+/* tvs  */
+@media (min-width:1921px){
+    body{
+        background-color: lightgray;
+    }
+}

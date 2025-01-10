@@ -1,0 +1,19 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+p{
+    color: blue;
+}
+@media (max-width: 600px){
+
+    .box{
+        height: 50px;
+        height: 50px;
+        background-color: blue;
+    }
+    p{
+        color: red;
+    }
+}
